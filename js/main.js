@@ -12,10 +12,7 @@ const escribeOperacion = text => {
         
         resultado.textContent = "";
     } 
-    if(operacionCompleta && !isNaN(text)){
-        resultado.textContent = '';
-        operacionCompleta = false;
-    } 
+
     resultado.textContent += text;
 }
 /*
